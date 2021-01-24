@@ -1,0 +1,7 @@
+.search_input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove #949494;
+    background-color: #fff;
+}

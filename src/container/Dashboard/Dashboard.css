@@ -1,0 +1,116 @@
+        .user_details_wrapper {
+            padding: 30px 40px;
+            right: 0;
+            /* position: absolute; */
+            box-sizing: border-box;
+            width: 100%;
+        }
+        
+        .user_details_table {
+            width: 100%;
+            margin: 30px 0;
+            border-spacing: 0;
+        }
+        
+        .table_head {
+            background: #fff;
+            height: 45px;
+            font-weight: 400;
+            font-size: 13px;
+            font-weight: 500;
+            color: rgb(152 152 152);
+        }
+        
+        th {
+            border-bottom: 0.7px #A4A7AB solid;
+        }
+        
+        .table_data {
+            text-align: left;
+            padding: 24px;
+        }
+        
+        .user_details_table td {
+            text-align: center;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            text-align: left;
+            line-height: 19px;
+            color: #273252;
+            padding: 21px;
+        }
+        
+        .user_details_tr:nth-child(even) {
+            background-color: #F7F7F7;
+        }
+        
+        .user_details_tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        
+        .user_details_tr:hover {
+            background-color: #CFFBEC;
+            border-radius: 8px;
+            box-shadow: 0 8px 6px -6px #CFFBEC;
+            cursor: pointer;
+        }
+        
+        .search_input {
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+            border-bottom-style: groove #949494;
+            background-color: #fff;
+            position: relative;
+            bottom: 0;
+        }
+        
+        input:focus::placeholder {
+            color: transparent;
+        }
+        
+        .search_input:focus {
+            outline: none;
+            border-bottom: 2px solid #63F1C0;
+        }
+        
+        .table-header {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px;
+            position: relative;
+        }
+        
+        .gender {
+            background-color: #63F1C0;
+            border-radius: 200px;
+            height: 3px;
+            width: 6px;
+            color: #273252;
+            padding: 2px 6px;
+        }
+        
+        .dropdown {
+            padding: 10px;
+            border-radius: 4px;
+            height: 40px;
+            position: relative;
+            bottom: 0;
+            align-self: flex-end;
+        }
+        
+        .main-layout-title {
+            align-self: flex-end;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #63F1C0;
+            margin-bottom: 0;
+        }
+        
+        @media (min-width: 1000px) and (min-height: 700px) {
+            .user_details_wrapper {
+                overflow: auto;
+            }
+            . .user_details_table td {}
+        }
